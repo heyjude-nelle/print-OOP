@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Diamond Test</title>
+        <style>
+            body {
+                font-family: monospace; 
+            }
+
+            #inputValue {
+                width: 95px; /* Adjusts the width of the input box */
+            }
+
+            #output {
+                margin-top: 20px; /* Moves down the output */
+                font-family: monospace; /* Applies monospace font to the output to ensure uniform spacing*/
+            }
+
+        </style>
+    </head>
+    <body>
+        <input type="text" id="inputValue" placeholder="Enter a number">
+        <button onclick="diamondPrinter.printDiamond()">Print Diamond</button>
+        <button onclick="squarePrinter.printSquare()">Print Square</button>
+        <div id="output"></div>
+        <script src="shapeParent.js"></script>
+        <script src="shapeChildren.js"></script>
+    </body>
+</html>
